@@ -1,0 +1,85 @@
+{
+  "direction": "rtl",
+  "project": "fa-cos-fashion-perfume",
+  "inspiration": "https://www.cos.com/",
+  "color": {
+    "background": {
+      "primary": { "value": "#FAF9F7", "description": "Off-white / Warm alabaster canvas" },
+      "surface": { "value": "#FFFFFF", "description": "Pure white product card & modal surface" },
+      "secondary": { "value": "#F1EFEA", "description": "Soft stone background for banners and trust strip" }
+    },
+    "text": {
+      "primary": { "value": "#141414", "description": "Pigment black for high-contrast titles and prices" },
+      "secondary": { "value": "#4A4A4A", "description": "Balanced gray for descriptions and subheadings" },
+      "muted": { "value": "#787672", "description": "Subtle gray for category meta tags and inactive states" },
+      "inverse": { "value": "#FFFFFF", "description": "Crisp white text for dark buttons and announcements" }
+    },
+    "brand": {
+      "primary": { "value": "#141414", "description": "Architectural COS-inspired deep black" },
+      "accent": { "value": "#D4CEBF", "description": "Warm linen accent for highlights and active tabs" },
+      "badge": { "value": "#EAE6DF", "description": "Understated category badge background" }
+    },
+    "border": {
+      "subtle": { "value": "#E8E6E1", "description": "Hairline 1px border for minimalist separation" },
+      "strong": { "value": "#141414", "description": "Crisp black outline for interactive buttons" }
+    },
+    "status": {
+      "inStock": { "value": "#2D6A4F", "description": "Subtle dark forest green for stock availability" },
+      "lowStock": { "value": "#B25E00", "description": "Warm amber warning for limited quantity" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": { "value": "'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" }
+    },
+    "lineHeight": {
+      "body": { "value": "1.75" },
+      "heading": { "value": "1.35" },
+      "display": { "value": "1.2" }
+    },
+    "mobileScale": {
+      "display": { "fontSize": "1.75rem", "fontWeight": "800", "letterSpacing": "-0.02em" },
+      "h1": { "fontSize": "1.5rem", "fontWeight": "800", "letterSpacing": "-0.01em" },
+      "h2": { "fontSize": "1.25rem", "fontWeight": "700" },
+      "h3": { "fontSize": "1.0625rem", "fontWeight": "600" },
+      "body": { "fontSize": "0.9375rem", "fontWeight": "400" },
+      "caption": { "fontSize": "0.75rem", "fontWeight": "500" }
+    },
+    "desktopScale": {
+      "display": { "fontSize": "2.75rem", "fontWeight": "800", "letterSpacing": "-0.03em" },
+      "h1": { "fontSize": "2.125rem", "fontWeight": "700", "letterSpacing": "-0.02em" },
+      "h2": { "fontSize": "1.625rem", "fontWeight": "600" },
+      "h3": { "fontSize": "1.25rem", "fontWeight": "600" },
+      "body": { "fontSize": "1rem", "fontWeight": "400" },
+      "caption": { "fontSize": "0.8125rem", "fontWeight": "500" }
+    }
+  },
+  "spacing": {
+    "mobilePaddingX": { "value": "16px" },
+    "desktopPaddingX": { "value": "32px" },
+    "touchTargetMin": { "value": "48px" },
+    "containerMax": { "value": "1280px" },
+    "gap": {
+      "mobileGrid": { "value": "12px" },
+      "desktopGrid": { "value": "24px" },
+      "sectionMobile": { "value": "36px" },
+      "sectionDesktop": { "value": "72px" }
+    }
+  },
+  "radii": {
+    "card": { "value": "4px", "description": "Crisp Scandinavian near-flat corner" },
+    "button": { "value": "4px", "description": "Minimal square-ish interactive button" },
+    "pill": { "value": "9999px", "description": "Full rounded capsule for category tags" },
+    "bottomSheet": { "value": "16px 16px 0 0", "description": "Ergonomic top corners for mobile drawer" }
+  },
+  "shadows": {
+    "subtle": { "value": "0 2px 8px rgba(0, 0, 0, 0.04)" },
+    "cardHover": { "value": "0 8px 24px -4px rgba(0, 0, 0, 0.08)" },
+    "bottomDrawer": { "value": "0 -6px 30px rgba(0, 0, 0, 0.12)" },
+    "stickyBar": { "value": "0 -2px 12px rgba(0, 0, 0, 0.05)" }
+  },
+  "aspectRatios": {
+    "productCard": { "value": "3 / 4", "description": "Portrait ratio optimized for apparel and perfume bottles" },
+    "lookbookBanner": { "value": "16 / 9", "description": "Wide cinematic aspect on desktop" }
+  }
+}

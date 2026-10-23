@@ -1,0 +1,6 @@
+{
+  "name": "COS Boutique | بوتیک آنلاین پوشاک و عطر مینیمال",
+  "description": "فروشگاه آنلاین تخصصی پوشاک کپسولی، اکسسوری‌های مینیمال و عطرهای نیش الهام‌گرفته از معماری و استایل COS با تجربه کاربری پیشرفته و راست‌چین.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
